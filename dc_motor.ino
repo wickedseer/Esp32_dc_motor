@@ -14,11 +14,11 @@ const int pwmChannel = 0;
 const int resolution = 8;
 int dutyCycle = 200;
 
-const char* ssid = "K33.Sapience-Office";
-const char* password = "P@ssw0rd";
+const char* ssid = "YOUR_SSID";
+const char* password = "YOUR_PASSWORD";
 
-#define BOTtoken "5063386548:AAHPxyZnQRbRlNK1cBFreryzCamLnj3oe4g"
-#define CHAT_ID "-611425498"
+#define BOTtoken "XXXXXXXX:XXXXXXXXXXXXXXXXXXXXXXXXXXXX" // Get from BotFather
+#define CHAT_ID "XXXXXXXXX" // Get from IDBot
 
 WiFiClientSecure client;
 UniversalTelegramBot bot(BOTtoken, client);
